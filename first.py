@@ -26,3 +26,37 @@ print(w3.eth.accounts)
 print(w3.eth.get_balance(w3.eth.accounts[0]))
 
 
+# let's take a peek atht the state of this simulated blockchain 
+
+
+print(w3.eth.get_block('latest'))
+
+
+
+# send a few test ether from one account to another 
+
+tx_hash = w3.eth.send_transaction (
+        {
+            'from':w3.eth.accounts[0],
+            'to':w3.eth.accounts[1],
+            'value':w3.toWei(3,'ether')
+            })
+
+
+print(f'this prints the transaction hash {tx_hash}')
+
+
+# wait for the transaction to be mined 
+
+#w3.eth.wait_for_transaction_receipt(tx_hash)
+
+#continue applicaton logic. to view the successful transactoin :
+#w3.eth.get_transaction(tx_hash)
+
+print(w3.eth.get_balance(w3.eth.accounts[0]))
+
+print(w3.eth.get_balance(w3.eth.accounts[1]))
+
+
+
+
