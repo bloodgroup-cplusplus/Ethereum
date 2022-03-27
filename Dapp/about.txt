@@ -1,0 +1,46 @@
+Dapp stands for decewntralized application .
+Decentralized applications have a front-end (client side) and back-end(server side).
+The user interface for DApp can be written in any language(just like traditional applicatons)
+and can make calls to its back-end 
+
+
+So, how do Daaps differ from traditional apps? A DApp has its backend code running on decentralized peer-to-peer network (i.e,blaockcchain)
+E.g., Bittorrent, Tor, Popcorn Time - they are DApps that run on p2p network
+
+
+
+A blockchain DApp has its own backend code called smart contracts that can be deployed
+on a blockchain 
+
+A smart contract defines the logic of the entire DApp.
+
+It is the lifeblood of using blockchain as the backedn 
+
+
+
+Web3 is a collection of libraries which allow you to interact with a local or remote ethereum blockchain.
+web3 is the bridge of communicatoin to your backend 
+ethereum developers have made a python3 library web3.py for interacting with ethereum
+Its APIs derived from the JavaScript version of web3.
+So aprt from web3. js we can interact with the blockchain via web3.py 
+library too.
+
+
+Dapps Development includes three simple steps
+
+
+1) Deploying a smart contract on the blockchain network
+
+2) Reading data from the deployed smart contract 
+
+
+3) Sending transactions to the deplyoed smart contract 
+
+
+
+4) To interact with the blockchain we must be connected to any fully synced node.
+
+5) We use infure node 
+
+
+
